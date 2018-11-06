@@ -21,7 +21,7 @@ int main(){
 		}
 		else cout << n <<"is NOT perfect."<<endl;
 		v.clear();
-		sum=1;
+		sum = 1;
 	}
 	return 0;
 }
