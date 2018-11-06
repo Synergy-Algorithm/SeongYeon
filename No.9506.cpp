@@ -8,7 +8,6 @@ int main(){
 	int i,n=0,sum=1;
 	vector<int> v;
 	while(n!=-1){
-		cout << "2와 10만 사이의 수를 입력하세요.:";
 		cin >> n;
 		for(i=2; i<n; i++)
 			if(n%i==0) v.push_back(i);
