@@ -20,7 +20,7 @@ int main(){
 				cout << " + " << v[i];
 			cout << endl;
 		}
-		else cout << n <<"is NOT perfect."<<endl;
+		else cout << n <<" is NOT perfect."<<endl;
 			
 		v.clear();
 		sum = 1;
