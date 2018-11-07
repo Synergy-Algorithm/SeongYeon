@@ -15,9 +15,9 @@ int main(){
 		for(i=0; i<v.size(); i++)
 			sum +=v[i];
 		if(sum==n){
-			cout << n << "= 1";
+			cout << n << " = 1";
 			for(i=0; i<v.size(); i++)
-				cout << "+" << v[i];
+				cout << " + " << v[i];
 			cout << endl;
 		}
 		else cout << n <<"is NOT perfect."<<endl;
